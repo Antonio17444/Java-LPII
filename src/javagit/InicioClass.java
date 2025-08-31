@@ -23,7 +23,7 @@ public class InicioClass {
 			pessoa[i].altura = sc.nextFloat();
 		}
 		for (int i = 0; i<pessoa.length;i++) {
-			System.out.println("Nome: "+pessoa[i].nome);
+			System.out.println("\nNome: "+pessoa[i].nome);
 			System.out.println("idade: "+pessoa[i].idade);
 			System.out.println("Altura: "+pessoa[i].altura);
 			System.out.println("\n===============================");
@@ -32,4 +32,5 @@ public class InicioClass {
 		str.close();
 	}
 }
+
 

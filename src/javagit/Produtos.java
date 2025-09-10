@@ -27,7 +27,7 @@ public class Produtos {
 		if (preco >= 0) {
 			this.preco = preco;
 		} else {
-			System.out.println("Erro: preço inválido");
+			System.out.println("Erro: preço negativo");
 		}
 	}
 	
@@ -48,15 +48,13 @@ public class Produtos {
 		System.out.print("Informe a quantidade: ");
 		setQuantidade(sc.nextInt());
 		
-		sc.close();
-		
 	}
 	
 	public void exibirProduto() {
 		System.out.print("\n ===== Produto =====\n");
-		System.out.print("Nome do produto: "+ nome);
-		System.out.print("Preço do produto: "+ preco);
-		System.out.println("Quantidade: "+ quantidade);
+		System.out.println("Nome do produto: "+ getNome());
+		System.out.println("Preço do produto: "+ getPreco());
+		System.out.println("Quantidade: "+ getQuantidade());
 	}
 	
 }

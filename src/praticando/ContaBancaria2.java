@@ -1,5 +1,4 @@
 package praticando;
-import java.util.Scanner;
 
 public class ContaBancaria2 {
 	

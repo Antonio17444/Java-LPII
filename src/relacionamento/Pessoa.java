@@ -9,12 +9,6 @@ public class Pessoa {
 	private int idade;
 	private Endereco endereco;
 	
-	public Pessoa(String nome, int idade, Endereco endereco) {
-		this.nome = nome;
-		this.idade = idade;
-		this.endereco = endereco;
-	}
-	
 	public String getNome() {
 		return nome;
 	}
@@ -38,6 +32,7 @@ public class Pessoa {
 	public void CadastroPessoa() {
 		System.out.println("Informe sua idade: ");
 		setIdade(sc.nextInt());
+		System.out.println();
 		System.out.println("Informe seu nome: ");
 		setNome(sc.nextLine());
 		System.out.println();

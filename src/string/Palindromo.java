@@ -3,7 +3,7 @@ package string;
 public class Palindromo {
 	public static void main(String[] args) {
 		
-		String texto = "aabbaa";
+		String texto = "ovo";
 		String invertida = "";
 		for(int i = texto.length()-1; i>=0; i--) {
 			invertida += texto.charAt(i);
